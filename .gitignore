@@ -1,2 +1,19 @@
 # Local Netlify folder
 .netlify
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Local database and user uploads
+instance/*.db-journal
+static/player_photos/
+static/team_logos/
+static/owner_photos/
